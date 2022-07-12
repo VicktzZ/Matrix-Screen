@@ -90,7 +90,7 @@ class FallingChar {
     this.speed = Math.random() * ((fontSize * 3) / 4) * 2;
 
     ctx.fillStyle = "rgba(0, 255, 0)";
-    ctx.font = fontSize + "px san-serif";
+    ctx.font = fontSize + "px sans-serif";
     ctx.fillText(this.value, this.x, this.y);
     this.y += this.speed;
 
